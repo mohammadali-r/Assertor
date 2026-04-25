@@ -1,0 +1,86 @@
+# ----------------------------
+# 🐍 Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ----------------------------
+# 📦 Packaging / build
+# ----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------------
+# 🧪 Pytest
+# ----------------------------
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ----------------------------
+# 📊 Logs
+# ----------------------------
+logs/
+*.log
+
+# ----------------------------
+# ⚙️ Environment variables
+# ----------------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------------
+# 🔐 Secrets / config overrides
+# ----------------------------
+config/*.local.yaml
+config/*.secret.yaml
+
+# ----------------------------
+# 🧠 IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# 🖥️ OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# 📁 Temporary files
+# ----------------------------
+tmp/
+temp/
+
+# ----------------------------
+# 🧪 Allure reports (if added later)
+# ----------------------------
+allure-results/
+allure-report/
+
+# ----------------------------
+# 🐳 Docker (optional)
+# ----------------------------
+*.pid
+*.seed
+*.pid.lock
+
+# ----------------------------
+# 📁 Test artifacts
+# ----------------------------
+reports/
+screenshots/
