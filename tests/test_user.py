@@ -1,4 +1,4 @@
-from tests.coftest import user_service
+from tests.conftest import user_service
 import allure
 
 @allure.title("get users")

@@ -1,0 +1,1 @@
+from tests.fixtures.user_service_fixtures import user_service
